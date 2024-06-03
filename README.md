@@ -1,2 +1,2 @@
 # odin-recipes
-About: Basic recipe webiste that consists of an index page with links to a few recipes
+About: Basic recipe website that consists of an index page with links to a few recipes

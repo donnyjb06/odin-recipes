@@ -7,7 +7,62 @@
             initial-scale=1.0">
         <meta http-equiv="X-UA-Compatile" content="it-edge">
         <style>
-            header {
+            .container3 {
+            display: flex;
+            justify-content: center; /* Horizontally centers the button */
+            align-items: center; /* Vertically centers the button */
+            text-align: center; /* Aligns the content (the button) horizontally within the container */
+            }
+
+            .Homepage {
+            /* Add any button styling you desire */
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #961201;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+
+            .container2 {
+                text-align: center;
+            }
+            .Steps {
+                display: inline-block;
+                text-align: left;
+                margin-top: 0px;
+                margin-bottom: 50px;
+            }
+
+            .Steps-subheading {
+                text-align: center;
+            }
+
+            .Container {
+                text-align: center;
+            }
+
+            .Ingredients {
+                display: inline-block;
+                text-align: left;
+                margin-top: 0px;
+                margin-bottom: 50px;
+            }
+
+            .Ingredients-subheading {
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                margin: auto;
+                text-align: center;
+                width: 700px;
+            }
+
+            .teriyaki-salmon {
                 text-align: center;
             }
 
@@ -17,14 +72,72 @@
         </style>
     </head>
     <body>
-        <header>
+        <header class="teriyaki-salmon">
             <h1>
                 Teriyaki Salmon
             </h1>
         </header>
+
         <div class="teriyaki-img">
             <img src="https://www.allrecipes.com/thmb/l9F-ALn8epIyb2YPuDguS0j-_K8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228285teriyaki-salmonFranceC4x3-495e53221ca54183bf0ff5b2fa5aae55.jpg" 
                 alt="Teriyaki salmon dish">
+        </div>
+
+        <p>This <strong>teriyaki salmon</strong>, with its irresistible sweet 
+            and savory marinade, will quickly become a staple in your dinner rotation. 
+            It's sure to please even the pickiest eaters at your table!</p>
+
+        <header class="Ingredients-subheading">
+            <h2>Ingredients
+            </h2>
+        </header>
+
+        <div class="Container">
+            <ul class="Ingredients">
+                <li><b>Sesame oil</b>: This teriyaki marinade for salmon starts 
+                    with sesame oil | &frac14; cup</li>
+                <li><b>Lemon Juice</b>: Lemon juice adds welcome 
+                    freshness and brightness | &frac14; cup</li>
+                <li><b>Soy sauce</b>: Soy sauce lends tons of 
+                    savory flavor | &frac14; cup</li>
+                <li><b>Brown sugar</b>: Brown sugar gives the marinade 
+                    pleasant sweetness | 2 tablespoons</li>
+                <li><b>Sesame seeds</b>: A tablespoon of sesame seeds will 
+                    add mild flavor and crunch | 1 tablespoon</li>
+                <li><b>Spices</b>: You'll need 1 teaspoon gound mustard | 1 teaspoon ground
+                    ginger | &frac14; teaspoon garlic powder</li>
+                <li><b>Salmon</b>: This recipe makes four salmon steaks.</li>
+            </ul>
+        </div>
+
+        <heading class="Steps-subheading">
+            <h2>Steps</h2>
+        </heading>
+
+        <div class="container2">
+            <ol class="Steps">
+                <li>Mix sesame oil, lemon juice, soy sauce, brown sugar, 
+                    sesame seeds, ground mustard, ginger, and garlic powder 
+                    in a small saucepan over low heat. Bring to a simmer, 
+                    stirring until sugar has dissolved. Set aside 1/2 cup of 
+                    marinade for basting.</li>
+                <li>Pour remaining marinade into a resealable plastic bag. 
+                    Add salmon steaks, coat with marinade, squeeze out excess 
+                    air, and seal the bag. Marinate in the refrigerator for 1 to 
+                    2 hours.</li>
+                <li>Set an oven rack about 6 inches from the heat source and 
+                    preheat the oven's broiler.</li>
+                <li>Broil salmon steaks under the preheated broiler for 5 minutes, 
+                    brushing salmon with reserved marinade. Turn and continue to broil 
+                    until salmon is opaque and flakes easily, about 5 more minutes. Brush 
+                    with marinade.</li>
+            </ol>
+        </div>
+
+        <div class="container3">
+            <a href="../index.html">
+                <button class="Homepage">Home Page</button>
+            </a>
         </div>
     </body>
 </html>

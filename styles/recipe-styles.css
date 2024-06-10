@@ -1,0 +1,64 @@
+/* --------------------
+ LOBSTER MAC STYLESHEET
+ ----------------------*/
+ .title {
+    text-align: center;
+}
+
+.picture {
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    width: 700px;
+}
+
+.ingredients-subheading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.ingredients-container {
+    text-align: center;
+}
+
+.ingredients-list {
+    display: inline-block;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.steps-container {
+    text-align: center;
+}
+.steps-list {
+    display: inline-block;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.steps-subheading {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+.homepage {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #961201;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

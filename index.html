@@ -6,45 +6,40 @@
         <meta name="viewport" content ="width=device-width,
             initial-scale=1.0">
         <meta http-equiv="X-UA-Compatile" content="it-edge">
+        <link rel="stylesheet" href="styles/index-styles.css">
 
-        <style>
-            header {
-                text-align: center;
-            }
-
-            .container4 {
-                text-align: center;
-            }
-
-            .Recipes {
-                display: inline-block;
-                text-align: left;
-                margin-top: 0px;
-                margin-bottom: 50px;
-            }
-        </style>
+        <!--Pacifico Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Pacifico&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="title">
             <h1>
-                Odin Recipes
+                Donny's Recipes
             </h1>
         </header>
-        <div class="container4">
-        <ul class="Recipes">
-            <li>
-                <a href="recipes/teriyaki-salmon.html">
-                Teriyaki Salmon</a>
-            </li>
-            <li>
-                <a href="recipes/lobster-mac.html">
-                Lobster Mac and Cheese</a>
-            </li>
-            <li>
-                <a href="recipes/scrambled-eggs.html">
-                Creamy Cottage Cheese Scrambled Eggs</a>
-            </li>
-        </ul>  
-        </div>  
+
+        <div class="container">
+            <a href="recipes/teriyaki-salmon.html">
+                <div class="recipe-container">
+                    <img class="recipe-image" src="https://www.allrecipes.com/thmb/l9F-ALn8epIyb2YPuDguS0j-_K8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228285teriyaki-salmonFranceC4x3-495e53221ca54183bf0ff5b2fa5aae55.jpg">
+                    <h2>Teriyaki Salmon</h2>
+                </div>
+            </a>
+
+            <a href="recipes/scrambled-eggs.html">
+                <div class="recipe-container">
+                    <img class="recipe-image" src="https://www.allrecipes.com/thmb/Wxu9aOJ_Zvs3mmDOkSWIDsDgJc8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/JF_241160_CreamyCottageCheeseScrambled_4x3_12902-619d00dc88594ea9b8ed884a108db16d.jpg">
+                    <h2>Cottage Cheese Scrambled Eggs</h2>                </div>
+            </a>
+
+            <a href="recipes/lobster-mac.html">
+                <div class="recipe-container">
+                    <img class="recipe-image" src="https://www.allrecipes.com/thmb/rz5gbmsw3pnWkQZPiKtD7SO4bpE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/171001-LobsterMacandCheese-DDMFS-103-4x3-05642a7eac714b12afa55c4981708165.jpg">
+                    <h2>Lobster Mac & Cheese</h2>
+                </div>
+            </a>
+        </div>
     </body>
 </html>

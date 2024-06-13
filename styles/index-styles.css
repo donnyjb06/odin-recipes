@@ -1,14 +1,111 @@
-header {
-    text-align: center;
+html {
+    background-image: url('../assets/background-images/concrete-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.container4 {
-    text-align: center;
+@font-face {
+    font-family: 'Reey';
+    src: url('../assets/Fonts/Reey.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.Recipes {
-    display: inline-block;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 50px;
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../assets/Fonts/BebasNeue.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Reey';
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    animation: text-glow 3s linear infinite;
+}
+
+/*----------------
+  TITLE ANIMATIONS
+  ----------------*/
+@keyframes text-glow 
+{
+    0%,100%
+    {
+        text-shadow: 0 0 15px #000;
+    }
+    50% 
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #ffffff,
+                    0 0 20px #ffffff,
+                    0 0 40px #ffffff,
+                    0 0 80px #ffffff,
+                    0 0 120px #fffcfce7,
+                    0 0 160px #fff;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+}
+
+.recipe-container {
+    width: 900px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 15px #000;    
+    transition: backdrop-filter 0.25s, box-shadow 3s;
+    
+    
+}
+
+.recipe-container:hover {
+    animation: box-glow 3s linear infinite;
+    backdrop-filter: blur(3.5px);
+    transition: backdrop-filter 0.25s, box-shadow 3s;  
+}
+
+@keyframes box-glow 
+{
+    0%,100%
+    {
+        box-shadow: 0 0 15px #000;
+    }
+    50% 
+    {
+        color: #fff;
+        box-shadow: 0 0 10px #ffffff,
+                    0 0 20px #ffffff,
+                    0 0 40px #ffffff;
+    }
+}
+
+.recipe-image {
+    width: 299px;
+    height: auto;
+    border-radius: 0;
+    margin-right: 50px;
+}
+
+a {
+    color: white;
+    font-family: 'BebasNeue';
+    font-size: 30px;
+    text-decoration: none;
+    transition: box-shadow 0.15s;
+}
+
+a :visited {
+    color: inherit;
 }

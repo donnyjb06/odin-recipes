@@ -88,9 +88,11 @@ p {
     width: 900px;
     align-items: center;
     justify-content: center;
-    border-radius: 35px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, .4);
-    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(17.8px);
+    -webkit-backdrop-filter: blur(17.8px);
 }
 
 .ingredients-subheading {
@@ -111,9 +113,11 @@ p {
     width: 900px;
     align-items: center;
     justify-content: center;
-    border-radius: 35px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, .4);
-    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(17.8px);
+    -webkit-backdrop-filter: blur(17.8px);
 }
 
 .steps-list {
@@ -137,16 +141,18 @@ p {
     padding: 25px;
     font-size: 20px;
     text-shadow: 0 0 15px #000;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.05);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .8);
     color: #ffffff;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    transition: boxshadow 0.25s, padding 0.15s;
+    transition: boxshadow 0.25s, padding 0.15s, text-shadow 0.25s;
+    backdrop-filter: blur(6px);
 }
 
 .homepage:hover {
+    text-shadow: 0 0 10px #fff;
     animation: box-glow 3s linear infinite;
     transition: box-shadow 0.25s, padding 0.15s;
     padding: 30px;

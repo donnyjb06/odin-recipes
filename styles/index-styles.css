@@ -63,17 +63,21 @@ html {
     border-radius: 20px;
     align-items: center;
     overflow: hidden;
-    backdrop-filter: blur(2px);
-    box-shadow: 0 0 15px #000;    
-    transition: backdrop-filter 0.25s, box-shadow 3s;
+    background: rgba(0, 0, 0, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    transition: backdrop-filter 0.25s, box-shadow 3s, -webkit-backdrop-filter 0.25s;
     
     
 }
 
 .recipe-container:hover {
     animation: box-glow 3s linear infinite;
-    backdrop-filter: blur(3.5px);
-    transition: backdrop-filter 0.25s, box-shadow 3s;  
+    backdrop-filter: blur(17.8px);
+    -webkit-backdrop-filter: blur(17.8px);
+    transition: backdrop-filter 0.25s, box-shadow 3s, -webkit-backdrop-filter 0.25s;  
 }
 
 @keyframes box-glow 
